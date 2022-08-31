@@ -1,4 +1,4 @@
-// Commonjs module implementation
+// CommonJS module implementation
 //===========================
 // const fs = require('fs-extra');
 // const path = require('path');
@@ -14,7 +14,7 @@
 //   console.error(err);
 // }
 
-// ESmodule implementation
+// ES module implementation
 //===========================
 // Ref:
 // https://flaviocopes.com/fix-dirname-not-defined-es-module-scope/
