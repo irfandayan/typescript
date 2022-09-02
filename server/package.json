@@ -1,15 +1,16 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "build/index.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "start:build": "tsc -w",
     "start:run": "nodemon build/index.js",
     "start": "concurrently npm:start:*"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@types/cookie-session": "^2.0.44",
     "concurrently": "^7.3.0",

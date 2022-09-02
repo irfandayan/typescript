@@ -1,10 +1,12 @@
-import { Router, Request, Response } from 'express';
-
-const router = Router();
-
-router.get('/login', (req: Request, res: Response) => {
-  res.send(`
-  <h1> Please fill in the form below</h1>
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.router = void 0;
+const express_1 = require("express");
+const router = (0, express_1.Router)();
+exports.router = router;
+router.get('/login', (req, res) => {
+    res.send(`
+  
   <form method="POST">
     
     <div>
@@ -23,5 +25,3 @@ router.get('/login', (req: Request, res: Response) => {
   
   `);
 });
-
-export { router };
